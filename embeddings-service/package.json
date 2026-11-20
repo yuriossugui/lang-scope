@@ -1,0 +1,13 @@
+{
+  "name": "embeddings-service",
+  "version": "1.0.0",
+  "description": "Local embeddings microservice using Transformers.js (Hugging Face)",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.17.1",
+    "express": "^4.19.2"
+  }
+}
